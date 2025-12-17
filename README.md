@@ -8,10 +8,10 @@
 - `test/ui/` — UI тесты
 - `config.py` — конфигурация (URL, токены)
 - `requirements.txt` — зависимости
-- `README.md` — инструкции по запуску
+- `README.md` — инструкции
 
 ## Установка
-1. Клонировать репозиторий
 ```bash
 git clone <URL_репозитория>
 cd aviasales_test_project
+pip install -r requirements.txt
