@@ -1,0 +1,12 @@
+# Запуск тестов:
+
+   pytest -v  - #все тесты
+
+   pytest -v -m "api" - №только API
+
+   pytest -v -m "ui" - #только UI
+
+# Отчеты Allure:
+
+  pytest --alluredir=allure-results
+  allure serve allure-results
